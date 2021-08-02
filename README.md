@@ -1,7 +1,5 @@
 # Racedays
 
-123test
-
 ## Build Setup
 
 ```bash
