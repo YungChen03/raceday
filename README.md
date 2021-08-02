@@ -1,0 +1,2 @@
+# raceday
+git init
