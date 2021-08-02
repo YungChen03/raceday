@@ -3,12 +3,10 @@
     <v-container class="my-3 pa-5">
       <v-layout row class="ml-2" align-start>
         <img src="../../assets/img/swimmingtri (2).svg" class="mx-2" />
-        <img src="../../assets/img/cycling 01.svg" class="mx-2" />
-        <img src="../../assets/img/cycling 01.svg" class="mx-2" />
-        <img src="../../assets/img/running tri.svg" class="mx-2" />
 
+        <img src="../../assets/img/cycling 01.svg" class="mx-2" />
         <img src="../../assets/img/running tri.svg" class="mx-2" />
-        <img src="../../assets/img/running tri.svg" class="mx-2" />
+        <img src="../../assets/img/quality.svg" class="mx-2" />
 
         <!-- <v-btn text mr-5 color="grey darken-2">
           <v-icon left>mdi-magnify</v-icon>

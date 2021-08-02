@@ -2,10 +2,18 @@
   <div class="lime lighten-5">
     <v-container class="my-3 pa-5">
       <v-layout row class="ml-2" align-start>
-        <img src="../../assets/img/task.svg" class="mx-2" />
-        <img src="../../assets/img/planner.svg" class="mx-2" />
-        <img src="../../assets/img/target.svg" class="mx-2" />
-        <img src="../../assets/img/medal.svg" class="mx-2" />
+        <v-flex xs3>
+          <img src="../../assets/img/task.svg" class="mx-2" />
+        </v-flex>
+        <v-flex xs3>
+          <img src="../../assets/img/planner.svg" class="mx-2" />
+        </v-flex>
+        <v-flex xs3>
+          <img src="../../assets/img/target.svg" class="mx-2" />
+        </v-flex>
+        <v-flex xs3>
+          <img src="../../assets/img/medal.svg" class="mx-2" />
+        </v-flex>
 
         <!-- <v-btn text mr-5 color="grey darken-2">
           <v-icon left>mdi-magnify</v-icon>
@@ -188,13 +196,14 @@ export default {
 .icon.delete:active {
   color: #69f0ae !important;
 }
+.loginwrap {
+  text-align: center;
+}
 
 img {
   height: 4vh;
 }
-.loginwrap {
-  display: flex;
-}
+
 .pleaselogin {
   margin: 0 auto !important;
 }

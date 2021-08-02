@@ -2,10 +2,9 @@
   <div class="lime lighten-5">
     <v-container class="my-3 pa-5">
       <v-layout row class="ml-2" align-start>
-        <img src="../../assets/img/cycling front.svg" class="mx-1" />
         <img src="../../assets/img/stationery-bicycle.svg" class="mr-1" />
         <img src="../../assets/img/traffic-sign.svg" class="mr-1" />
-        <img src="../../assets/img/mountain.svg" class="mr-1" />
+        <img src="../../assets/img/cycling front.svg" class="mx-1" />
 
         <img src="../../assets/img/finish.svg" class="mx-1" />
 
