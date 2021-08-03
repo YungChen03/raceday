@@ -202,12 +202,16 @@ img {
 .pleaselogin {
   margin: 0 auto !important;
 }
+.layout {
+  flex-wrap: wrap !important;
+}
 @media screen and (max-width: 600px) {
   .status {
     margin-left: 15px;
   }
   .row {
     justify-content: center;
+    flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 600px) {
@@ -216,6 +220,9 @@ img {
   }
   .row {
     justify-content: center;
+  }
+  .layout {
+    flex-wrap: wrap !important;
   }
 }
 
