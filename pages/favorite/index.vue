@@ -1,7 +1,7 @@
 <template>
   <div class="lime lighten-5">
     <v-container class="my-3 pa-5">
-      <v-layout row wrap class="ml-2 img-wrap">
+      <v-card row class="ml-2 img-wrap">
         <img src="../../assets/img/task.svg" class="mx-2" />
 
         <img src="../../assets/img/planner.svg" class="mx-2" />
@@ -20,7 +20,7 @@
             <span>請登入 查看儲存的最愛賽事</span>
           </v-btn>
         </v-container>
-      </v-layout>
+      </v-card>
 
       <v-card
         flat
