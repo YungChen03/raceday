@@ -1,7 +1,7 @@
 <template>
   <div class="lime lighten-5">
     <v-container class="my-3 pa-5">
-      <v-layout row class="ml-2">
+      <v-layout row wrap class="ml-2 img-wrap">
         <img src="../../assets/img/task.svg" class="mx-2" />
 
         <img src="../../assets/img/planner.svg" class="mx-2" />
@@ -202,7 +202,7 @@ img {
 .pleaselogin {
   margin: 0 auto !important;
 }
-.layout {
+.img-wrap {
   flex-wrap: wrap !important;
 }
 @media screen and (max-width: 600px) {
@@ -213,6 +213,9 @@ img {
     justify-content: center;
     flex-wrap: wrap;
   }
+  .img-wrap {
+    flex-wrap: wrap !important;
+  }
 }
 @media screen and (min-width: 600px) {
   .deletebtn {
@@ -220,9 +223,6 @@ img {
   }
   .row {
     justify-content: center;
-  }
-  .layout {
-    flex-wrap: wrap !important;
   }
 }
 
