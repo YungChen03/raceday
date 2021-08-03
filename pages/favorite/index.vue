@@ -1,14 +1,16 @@
 <template>
   <div class="lime lighten-5">
     <v-container class="my-3 pa-5">
-      <v-card row class="ml-2 img-wrap">
-        <img src="../../assets/img/task.svg" class="mx-2" />
+      <div class="ml-2">
+        <div class=" icon-wrap">
+          <img src="../../assets/img/task.svg" class="mx-2" />
 
-        <img src="../../assets/img/planner.svg" class="mx-2" />
+          <img src="../../assets/img/planner.svg" class="mx-2" />
 
-        <img src="../../assets/img/target.svg" class="mx-2" />
+          <img src="../../assets/img/target.svg" class="mx-2" />
 
-        <img src="../../assets/img/medal.svg" class="mx-2" />
+          <img src="../../assets/img/medal.svg" class="mx-2" />
+        </div>
 
         <!-- <v-btn text mr-5 color="grey darken-2">
           <v-icon left>mdi-magnify</v-icon>
@@ -17,10 +19,10 @@
 
         <v-container v-if="!loginStatus" class="loginwrap">
           <v-btn text color="grey darken-2" class="pleaselogin">
-            <span>請登入 查看儲存的最愛賽事</span>
+            <span>你好請登入 以查看儲存的最愛賽事</span>
           </v-btn>
         </v-container>
-      </v-card>
+      </div>
 
       <v-card
         flat
@@ -202,8 +204,10 @@ img {
 .pleaselogin {
   margin: 0 auto !important;
 }
-.img-wrap {
-  flex-wrap: wrap !important;
+.icon-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 600px) {
   .status {
