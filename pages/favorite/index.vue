@@ -1,19 +1,14 @@
 <template>
   <div class="lime lighten-5">
     <v-container class="my-3 pa-5">
-      <v-layout row class="ml-2" align-start>
-        <v-flex xs3>
-          <img src="../../assets/img/task.svg" class="mx-2" />
-        </v-flex>
-        <v-flex xs3>
-          <img src="../../assets/img/planner.svg" class="mx-2" />
-        </v-flex>
-        <v-flex xs3>
-          <img src="../../assets/img/target.svg" class="mx-2" />
-        </v-flex>
-        <v-flex xs3>
-          <img src="../../assets/img/medal.svg" class="mx-2" />
-        </v-flex>
+      <v-layout row class="ml-2">
+        <img src="../../assets/img/task.svg" class="mx-2" />
+
+        <img src="../../assets/img/planner.svg" class="mx-2" />
+
+        <img src="../../assets/img/target.svg" class="mx-2" />
+
+        <img src="../../assets/img/medal.svg" class="mx-2" />
 
         <!-- <v-btn text mr-5 color="grey darken-2">
           <v-icon left>mdi-magnify</v-icon>
@@ -22,7 +17,7 @@
 
         <v-container v-if="!loginStatus" class="loginwrap">
           <v-btn text color="grey darken-2" class="pleaselogin">
-            <span>你好請登入 以查看你儲存的最愛賽事</span>
+            <span>請登入 查看儲存的最愛賽事</span>
           </v-btn>
         </v-container>
       </v-layout>

@@ -132,7 +132,7 @@ export default {
             type: this.events[index].type
           });
       } catch (err) {
-        this.error = err.message;
+        this.error = "你好,請先登錄會員";
         alert(this.error);
       }
     },
