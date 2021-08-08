@@ -15,7 +15,7 @@ export default {
 @media screen and (min-width: 1200px) {
   .home {
     margin: 0 auto;
-    width: 45vw;
+    width: 26vw;
   }
 }
 </style>
